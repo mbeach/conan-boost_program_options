@@ -15,7 +15,7 @@ class BoostProgram_OptionsConan(ConanFile):
                       "Boost.Function/1.64.0@bincrafters/testing", \
                       "Boost.Iterator/1.64.0@bincrafters/testing", \
                       "Boost.Lexical_Cast/1.64.0@bincrafters/testing", \
-                      "Boost.Spart_Ptr/1.64.0@bincrafters/testing", \
+                      "Boost.Smart_Ptr/1.64.0@bincrafters/testing", \
                       "Boost.Static_Assert/1.64.0@bincrafters/testing", \
                       "Boost.Throw_Exception/1.64.0@bincrafters/testing", \
                       "Boost.Type_Traits/1.64.0@bincrafters/testing"
