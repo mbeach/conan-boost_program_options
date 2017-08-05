@@ -2,7 +2,7 @@
 
 [Conan.io](https://conan.io) package for [Boost.Program_Options](https://github.com/Boostorg/Program_Options) project
 
-The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/conan-public/Boost.Program_Options%3Abincrafters).
+The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/public-conan/Boost.Program_Options%3Abincrafters).
 
 ## For Users: Use this package
 
