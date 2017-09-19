@@ -12,19 +12,19 @@ class BoostProgram_OptionsConan(ConanFile):
     lib_short_names = ["program_options"]
     options = {"shared": [True, False]}
     default_options = "shared=False"
-    build_requires = "Boost.Generator/1.65.1@bincrafters/testing" 
-    requires =  "Boost.Any/1.65.1@bincrafters/testing", \
-                      "Boost.Config/1.65.1@bincrafters/testing", \
-                      "Boost.Core/1.65.1@bincrafters/testing", \
-                      "Boost.Detail/1.65.1@bincrafters/testing", \
-                      "Boost.Function/1.65.1@bincrafters/testing", \
-                      "Boost.Iterator/1.65.1@bincrafters/testing", \
-                      "Boost.Lexical_Cast/1.65.1@bincrafters/testing", \
-                      "Boost.Smart_Ptr/1.65.1@bincrafters/testing", \
-                      "Boost.Static_Assert/1.65.1@bincrafters/testing", \
-                      "Boost.Throw_Exception/1.65.1@bincrafters/testing", \
-                      "Boost.Tokenizer/1.65.1@bincrafters/testing", \
-                      "Boost.Type_Traits/1.65.1@bincrafters/testing"
+    build_requires = "Boost.Generator/1.65.1@bincrafters/stable" 
+    requires =  "Boost.Any/1.65.1@bincrafters/stable", \
+                      "Boost.Config/1.65.1@bincrafters/stable", \
+                      "Boost.Core/1.65.1@bincrafters/stable", \
+                      "Boost.Detail/1.65.1@bincrafters/stable", \
+                      "Boost.Function/1.65.1@bincrafters/stable", \
+                      "Boost.Iterator/1.65.1@bincrafters/stable", \
+                      "Boost.Lexical_Cast/1.65.1@bincrafters/stable", \
+                      "Boost.Smart_Ptr/1.65.1@bincrafters/stable", \
+                      "Boost.Static_Assert/1.65.1@bincrafters/stable", \
+                      "Boost.Throw_Exception/1.65.1@bincrafters/stable", \
+                      "Boost.Tokenizer/1.65.1@bincrafters/stable", \
+                      "Boost.Type_Traits/1.65.1@bincrafters/stable"
 
                       #any6 config0 core2 detail5 function5 iterator5 lexical_cast8 smart_ptr4 static_assert1 throw_exception2 type_traits3
 
