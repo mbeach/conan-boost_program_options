@@ -3,24 +3,24 @@ from conans import ConanFile
 
 class BoostProgram_OptionsConan(ConanFile):
     name = "Boost.Program_Options"
-    version = "1.65.1"
+    version = "1.66.0"
 
     options = {"shared": [True, False]}
     default_options = "shared=False"
 
     requires = \
-        "Boost.Any/1.65.1@bincrafters/testing", \
-        "Boost.Config/1.65.1@bincrafters/testing", \
-        "Boost.Core/1.65.1@bincrafters/testing", \
-        "Boost.Detail/1.65.1@bincrafters/testing", \
-        "Boost.Function/1.65.1@bincrafters/testing", \
-        "Boost.Iterator/1.65.1@bincrafters/testing", \
-        "Boost.Lexical_Cast/1.65.1@bincrafters/testing", \
-        "Boost.Smart_Ptr/1.65.1@bincrafters/testing", \
-        "Boost.Static_Assert/1.65.1@bincrafters/testing", \
-        "Boost.Throw_Exception/1.65.1@bincrafters/testing", \
-        "Boost.Tokenizer/1.65.1@bincrafters/testing", \
-        "Boost.Type_Traits/1.65.1@bincrafters/testing"
+        "Boost.Any/1.66.0@bincrafters/testing", \
+        "Boost.Config/1.66.0@bincrafters/testing", \
+        "Boost.Core/1.66.0@bincrafters/testing", \
+        "Boost.Detail/1.66.0@bincrafters/testing", \
+        "Boost.Function/1.66.0@bincrafters/testing", \
+        "Boost.Iterator/1.66.0@bincrafters/testing", \
+        "Boost.Lexical_Cast/1.66.0@bincrafters/testing", \
+        "Boost.Smart_Ptr/1.66.0@bincrafters/testing", \
+        "Boost.Static_Assert/1.66.0@bincrafters/testing", \
+        "Boost.Throw_Exception/1.66.0@bincrafters/testing", \
+        "Boost.Tokenizer/1.66.0@bincrafters/testing", \
+        "Boost.Type_Traits/1.66.0@bincrafters/testing"
 
     lib_short_names = ["program_options"]
     is_header_only = False
@@ -28,9 +28,9 @@ class BoostProgram_OptionsConan(ConanFile):
     # BEGIN
 
     url = "https://github.com/bincrafters/conan-boost-program_options"
-    description = "Please visit http://www.boost.org/doc/libs/1_65_1"
+    description = "Please visit http://www.boost.org/doc/libs/1_66_0"
     license = "www.boost.org/users/license.html"
-    build_requires = "Boost.Generator/1.65.1@bincrafters/testing"
+    build_requires = "Boost.Generator/1.66.0@bincrafters/testing"
     short_paths = True
     generators = "boost"
     settings = "os", "arch", "compiler", "build_type"
