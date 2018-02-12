@@ -38,6 +38,9 @@ class BoostProgram_OptionsConan(ConanFile):
         for dep_name in boost_deps_only:
             self.info.requires[dep_name].full_version_mode()
 
+    def b2_options(self, lib_name=None):
+        return "define=BOOST_PROGRAM_OPTIONS_DYN_LINK=1"
+
     # BEGIN
 
     description = "Please visit http://www.boost.org/doc/libs/1_65_1"
