@@ -17,19 +17,19 @@ class BoostProgram_OptionsConan(ConanFile):
     default_options = "shared=False"
 
     requires = (
-        "boost_package_tools/1.65.1@bincrafters/testing",
-        "boost_any/1.65.1@bincrafters/testing",
-        "boost_config/1.65.1@bincrafters/testing",
-        "boost_core/1.65.1@bincrafters/testing",
-        "boost_detail/1.65.1@bincrafters/testing",
-        "boost_function/1.65.1@bincrafters/testing",
-        "boost_iterator/1.65.1@bincrafters/testing",
-        "boost_lexical_cast/1.65.1@bincrafters/testing",
-        "boost_smart_ptr/1.65.1@bincrafters/testing",
-        "boost_static_assert/1.65.1@bincrafters/testing",
-        "boost_throw_exception/1.65.1@bincrafters/testing",
-        "boost_tokenizer/1.65.1@bincrafters/testing",
-        "boost_type_traits/1.65.1@bincrafters/testing"
+        "boost_package_tools/1.65.1@bincrafters/stable",
+        "boost_any/1.65.1@bincrafters/stable",
+        "boost_config/1.65.1@bincrafters/stable",
+        "boost_core/1.65.1@bincrafters/stable",
+        "boost_detail/1.65.1@bincrafters/stable",
+        "boost_function/1.65.1@bincrafters/stable",
+        "boost_iterator/1.65.1@bincrafters/stable",
+        "boost_lexical_cast/1.65.1@bincrafters/stable",
+        "boost_smart_ptr/1.65.1@bincrafters/stable",
+        "boost_static_assert/1.65.1@bincrafters/stable",
+        "boost_throw_exception/1.65.1@bincrafters/stable",
+        "boost_tokenizer/1.65.1@bincrafters/stable",
+        "boost_type_traits/1.65.1@bincrafters/stable"
     )
 
     def package_id_additional(self):
@@ -48,7 +48,7 @@ class BoostProgram_OptionsConan(ConanFile):
     short_paths = True
     generators = "boost"
     settings = "os", "arch", "compiler", "build_type"
-    build_requires = "boost_generator/1.65.1@bincrafters/testing"
+    build_requires = "boost_generator/1.65.1@bincrafters/stable"
 
     def package_id(self):
         getattr(self, "package_id_additional", lambda:None)()
