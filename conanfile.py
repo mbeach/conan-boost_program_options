@@ -15,6 +15,11 @@ class BoostProgram_OptionsConan(ConanFile):
     options = {"shared": [True, False]}
     default_options = "shared=False"
 
+    source_only_deps = [
+        "bind",
+        "tokenizer"
+    ]
+
     requires = (
         "boost_any/1.67.0@bincrafters/testing",
         "boost_config/1.67.0@bincrafters/testing",
